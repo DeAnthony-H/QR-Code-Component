@@ -1,0 +1,37 @@
+@media only screen and (min-width:1440px){
+    .QR-Card{
+        max-width: 600px;
+        padding:60px;
+    }
+
+    .QR-Code{
+        max-width: 300px;
+    }
+
+    h2{
+        font-size:32px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .QR-Card{
+        padding: 20px;
+    }
+
+    .QR-Code{
+        max-width: 150px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
